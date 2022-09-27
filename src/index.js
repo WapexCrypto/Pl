@@ -7,13 +7,13 @@ import Skills from "./Skills";
 
 const App = () => (
   <div>
-    <nav>
+    /*<nav>
       <Link to="/">Home</Link>
       {"  "}
       <Link to="/about">About Me</Link>
       {"  "}
       <Link to="/skills">Skills</Link>
-    </nav>
+    </nav>*/
     <div>
       <Route exact path="/" component={Welcome} />
       <Route path="/about" component={About} />
