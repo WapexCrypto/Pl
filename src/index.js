@@ -5,7 +5,6 @@ import Welcome from "./Welcome";
 import About from "./About";
 import Skills from "./Skills";
 import axios from 'axios';
-const axios = require('axios');
 
 const App = () => (
   <div>
