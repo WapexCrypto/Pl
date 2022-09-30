@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Welcome from "./Welcome";
 import About from "./About";
 import Skills from "./Skills";
-import axios from 'axios';
 
 const App = () => (
   <div>
