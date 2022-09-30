@@ -1,6 +1,6 @@
 import React from "react";
 const axios = require('axios');
-function Welcome = () => (
+function Welcome() {
   function xlm() {
   axios.get('https://api.coingecko.com/api/v3/simple/price?ids=stellar&vs_currencies=eur&include_24hr_change=true')
   .then(res => {
@@ -14,6 +14,6 @@ function Welcome = () => (
     Welcome To my Page
   </div>
 )
-);
+  }
 
 export default Welcome;
