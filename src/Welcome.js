@@ -14,6 +14,6 @@ function Welcome() {
     Welcome To my Page
   </div>
 )
-  }
+  }}
 
 export default Welcome;
